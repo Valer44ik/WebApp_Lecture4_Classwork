@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de bienvenida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+        h1 {
+            color: #4b0082;
+            font-size: 2em;
+        }
+        .section {
+            margin-top: 25px;
+        }
+        .section h2 {
+            color: #555;
+            border-bottom: 2px solid #4b0082;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #e3eaf7;
+            color: #333;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s ease;
+        }
+        ul li:hover {
+            background-color: #c8d1f7;
+        }
+        p {
+            background-color: #ffefc3;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            ¡Hola! Soy Valerij
+          <br>
+          (st81994 - Valerijs Goncarovs)
+          <br>
+        </h1>
+        <img src="/Users/valerijgoncharov/Desktop/My_projects/WebApp_Classwork/Valera.jpg" alt="Foto de Valerij">
+        
+        <div class="section">
+            <h2>Mis pasatiempos:</h2>
+            <ul>
+                <li>Escuchar música</li>
+                <li>Tocar la guitarra</li>
+                <li>Gym Latvia</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>La comida favorita:</h2>
+            <p>Lasagna</p>
+            <p>Sushi</p>
+        </div>
+
+        <div class="section">
+            <h2>Mis habilidades:</h2>
+            <ul>
+                <li>HTML y CSS</li>
+                <li>Tocar la guitarra</li>
+                <li>Levantar la barra</li>
+                <li>Comer lasagna</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
